@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  height: 100%;
+  color: rgb(215, 215, 215);
+}
+
+.admin-profile {
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(83, 110, 106);
+}
+
+.admin-image img {
+  display: block;
+  margin: auto;
+  height: 120px;
+  width: 120px;
+  border: 4px solid rgb(83, 110, 106);
+  border-radius: 100%;
+}
+
+.admin-name {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nav li a {
+  color: rgb(215, 215, 215);
+}
+
+.nav li a:hover {
+  color: rgb(134, 134, 134);
+}
+
+.bg-dark {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: green;
+}
+
+.form-control {
+  outline-color: green;
+}
+
+.img-thumbnail {
+  width: 100px;
+  margin: auto;
+}
