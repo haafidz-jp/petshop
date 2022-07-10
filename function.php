@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","root","petshop");
+$conn = mysqli_connect("us-cdbr-east-06.cleardb.net","b89f77e3f21e3d","7da400f6","heroku_6eeab71875b6f96");
 
 function query($query){
     global $conn;
